@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1 
 kind: Deployment 
 metadata:
-  name: slack-codelab
+  name: agent21
 spec:
   replicas: 1
   strategy:
@@ -14,7 +14,7 @@ spec:
   template:
     metadata:
       labels:
-        app: slack-codelab
+        app: agent21
     spec:
       containers:
       - name: master
