@@ -4,7 +4,12 @@
   "description": "Agent21 Bot.",
   "main": "agent21.js",
   "dependencies": {
-    "botkit": "0.4.0"
+    "apiai": "^4.0.3",
+    "botkit": "0.4.0",
+    "firebase": "^4.8.1",
+    "firebase-admin": "^5.6.0",
+    "firebase-nodejs": "^1.0.1-1.1",
+    "slack-utils": "^0.3.1"
   },
   "devDependencies": {},
   "scripts": {
